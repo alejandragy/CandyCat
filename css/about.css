@@ -1,0 +1,39 @@
+.quienes-somosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 640px;
+}
+.quienes-somos__text{
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    color:#343434;
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.quienes-somosContainer img{
+    width: 60%;
+}
+
+@media (max-width: 768px){
+    .quienes-somosContainer img{
+        width: 100%;
+    }
+    .quienes-somosContainer{
+        height: 1000px;
+    }
+}
+
+@media (max-width: 1023px){
+    .quienes-somosContainer img{
+        width: 80%;
+    }
+}

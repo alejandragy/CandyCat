@@ -1,0 +1,55 @@
+#aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aviso p{
+    font-size: 18px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    color:#343434;
+    text-align: center;
+}
+#aviso a{
+    font-size: 18px;
+    font-family: 'Manjari', sans-serif;
+    color:var(--main-color);
+    text-decoration: none;
+}
+
+#tienda{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.tiendaContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1350px;
+    margin: auto;
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    .infoContainer{
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    #tienda{
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .infoContainer{
+        margin-top: 10px;
+        height: 500px;
+    }
+    #tienda{
+        margin-bottom: 60px;
+    }
+}
